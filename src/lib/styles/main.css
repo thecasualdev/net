@@ -1,0 +1,13 @@
+body {
+    background-color: #CED9E5;
+    color: #F3F4F7;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    /* background-color: #6baef0; */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px 48px 20px;
+}
