@@ -1,15 +1,29 @@
 ---
 title: Hello, World
-description: Finally the first blog post
+description: Finally! After many years of dicking around I have a blog
 date: '2026-11-12'
-updated: '2026-11-12'
-color: 
+updated: '2026-11-13'
 tags: [test]
 ---
-
 # Hello, World!
 
-This is my first blog
+Finally! After a few too many years of dicking around with the lovely thecasualdev.net domain 
+I have made a website I am reasonably happy with. And I'm kinda pissed because this thing can't be more than like... 200 lines of code. 
+(Shoutout to SvelteKit I guess).
 
-## What else can I do?
+Now it is by no means perfect.
+
+But I have a game jam I wanna work on so it will do. I also hate CSS so don't expect this site
+to work on mobile for atleast another couple of years. Unless I make like Epic Games and go for a full vibe codded project.
+
+
+## Where to begin.
+Genuinely not sure how to start, I never thought this day would come.
+
+I suppose the important first step. Would be addressing why it took so long. And the simple truth
+is I'm a bit of a perfectionist. Which sounds good in theory but in practice makes me shutdown the minute I'm not able to make something perfect.
+It's part of the reason why I've not really released any project in the past... years... But I've been finally attempting some Game Jams. With the big one that started today
+Unreal Epic AI MEGA JAM THING. Since I've not touched Unreal for 6 odd years I don't have much faith but I will tackle the challenge.
+
+I want to test more stuff but It's getting late right now. So I'm off to bed.
 
