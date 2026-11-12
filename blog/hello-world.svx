@@ -1,8 +1,8 @@
 ---
 title: Hello, World
 description: Finally! After many years of dicking around I have a blog
-date: '2026-11-12'
-updated: '2026-11-13'
+date: '2026-11-12T12:00:00+11:00'
+updated: "2026-11-13T09:56:52+11:00"
 tags: [test]
 ---
 # Hello, World!
