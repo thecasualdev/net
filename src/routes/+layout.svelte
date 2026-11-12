@@ -10,9 +10,15 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
-	<link rel="preconnect" href="https://fonts.gstatic.com" />
 	<title>~</title>
+	<link rel="icon" href={favicon} />
+	<link rel="me" href="https://mastodon.social/@thecasualdev" />
+
+	<!-- YAY MORE TAGS !!! I FUCKING HATE WEB DEV -->
+	<meta property="og:site_name" content="thecasualdev.net" />
+	<meta property="og:locale" content="en_AU" />
+	<meta name="twitter:site" content="@_thecasualdev" />
+	<meta name="author" content="thecasualdev" />
 </svelte:head>
 
 <div><Header /></div>
