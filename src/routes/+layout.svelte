@@ -1,6 +1,7 @@
 <script lang="ts">
 	import favicon from "#lib/assets/favicon.svg";
 	import Header from "#lib/components/header.svelte";
+	import Footer from "#lib/components/footer.svelte";
 	import type { LayoutProps } from "./$types";
 
 	import "#lib/styles/main.css";
@@ -14,5 +15,8 @@
 	<title>~</title>
 </svelte:head>
 
-<Header></Header>
-{@render children()}
+<div><Header /></div>
+<main class="page">
+	{@render children()}
+</main>
+<div><Footer /></div>
