@@ -39,3 +39,10 @@
 <article class="main">
     <data.content />
 </article>
+
+<style>
+    article :global(.heading-link) {
+        color: inherit;
+        text-decoration: none;
+    }
+</style>
