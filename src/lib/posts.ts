@@ -17,5 +17,6 @@ export function getPosts(): PostSumary[] {
     return Object.entries(modules).map(([path, meta]) => ({
         ...meta,
         slug: path.replace('/blog/', '').replace('.svx', '')
-    })).sort((a, b) => b.date.localeCompare(a.date))
+    }))
+        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 }
