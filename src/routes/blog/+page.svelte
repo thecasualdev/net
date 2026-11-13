@@ -9,7 +9,12 @@
 </svelte:head>
 
 <div class="main">
-    <p>Blog posts</p>
+    <!-- <h1>the super casual blog</h1> -->
+    <p>
+        Welcome to my super casual blog, <a href="/rss.xml" class="rss"
+            >Subscribe via RSS</a
+        >
+    </p>
 
     <div>
         {#if data.posts.length}
@@ -30,5 +35,8 @@
 <style>
     .post {
         display: flex;
+    }
+    .rss {
+        color: #fb914a;
     }
 </style>
