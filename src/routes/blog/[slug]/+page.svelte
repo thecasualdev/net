@@ -6,6 +6,11 @@
     let { data }: PageProps = $props();
 
     const url = $derived(new URL(page.url.pathname, SITE_URL).href);
+    const short_url = $derived(`https://thecasual.dev/b/${page.params.slug}`);
+
+    async function copyLink() {
+        await navigator.clipboard.writeText(short_url);
+    }
 </script>
 
 <svelte:head>
@@ -36,13 +41,43 @@
     {/if}
 </svelte:head>
 
-<article class="main">
-    <data.content />
-</article>
+<div class="main">
+    <article>
+        <data.content />
+    </article>
+
+    <div class="copy-link">
+        <div class="copy-text"><p>{short_url}</p></div>
+        <button class="copy-button" onclick={copyLink}>copy</button>
+    </div>
+</div>
 
 <style>
     article :global(.heading-link) {
         color: inherit;
         text-decoration: none;
+    }
+
+    .main {
+        gap: 3rem;
+    }
+
+    .copy-link {
+        align-self: flex-start;
+        display: flex;
+        margin-top: auto;
+        border: 4px solid #d1dde6;
+        border-radius: 10px;
+    }
+    .copy-text {
+        color: #f3f4f7;
+        padding: 0px 5px;
+        border-right: 2px solid #d1dde6;
+    }
+    .copy-button {
+        all: unset;
+        color: #f3f4f7;
+        cursor: pointer;
+        padding: 0px 5px;
     }
 </style>
