@@ -56,6 +56,7 @@
         display: flex;
     }
     .rss {
-        color: #fb914a;
+        color: #ff7f32;
+        text-decoration: none;
     }
 </style>

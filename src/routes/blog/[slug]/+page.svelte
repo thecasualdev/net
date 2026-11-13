@@ -63,7 +63,7 @@
     }
 
     .copy-link {
-        align-self: flex-start;
+        align-self: flex-end;
         display: flex;
         margin-top: auto;
         border: 4px solid #d1dde6;
