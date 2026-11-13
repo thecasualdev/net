@@ -60,25 +60,33 @@
     }
 
     .main {
-        gap: 3rem;
+        gap: 0.5rem;
+        justify-content: space-between;
     }
 
     .copy-link {
         align-self: flex-end;
         display: flex;
-        margin-top: auto;
-        border: 4px solid #d1dde6;
-        border-radius: 10px;
+        /* margin-top: auto; */
+        /* border: 2px dotted #92caf5; */
     }
     .copy-text {
         color: #f3f4f7;
-        padding: 0px 5px;
-        border-right: 2px solid #d1dde6;
+        padding: 8px 5px;
+        border: 2px dashed #92caf5;
+        border-right: none;
     }
     .copy-button {
         all: unset;
         color: #f3f4f7;
         cursor: pointer;
         padding: 0px 5px;
+        border: 2px solid #92caf5;
+        border-radius: 0px 8px 8px 0px;
+        /* border-left: none; */
+    }
+
+    .copy-text p {
+        margin: 0;
     }
 </style>

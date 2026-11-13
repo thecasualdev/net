@@ -35,7 +35,7 @@
     footer {
         max-width: 1000px;
         margin: 0 auto;
-        padding: 0px 50px;
+        padding: 0px 5px;
 
         border-top: 2px dotted white;
         display: flex;
