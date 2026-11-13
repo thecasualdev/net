@@ -15,6 +15,7 @@
 
 <svelte:head>
     <title>~ blog / {data.meta.title}</title>
+    <meta name="description" content={data.meta.description} />
     <link rel="canonical" href={url} />
 
     <!-- META TAGS (FUCK ME) -->
