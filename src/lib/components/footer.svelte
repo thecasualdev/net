@@ -1,4 +1,16 @@
 <footer>
+    <div class="license">
+        <p>
+            © 2026 thecasualdev ⋆ Source code licensed under <a
+                href="https://github.com/thecasualdev/net/blob/main/LICENSE"
+                target="_blank">Apache 2.0</a
+            >
+            ⋆ view on
+            <a href="https://github.com/thecasualdev/net" target="_blank"
+                >GitHub</a
+            >
+        </p>
+    </div>
     <div class="links">
         <!-- <ul>
             <p>Resources</p>
@@ -17,30 +29,18 @@
             </li>
         </ul>
     </div>
-    <div>
-        <p>
-            © 2026 thecasualdev ⋆ Source code licensed under <a
-                href="https://github.com/thecasualdev/net/blob/main/LICENSE"
-                target="_blank">Apache 2.0</a
-            >
-            ⋆ view on
-            <a href="https://github.com/thecasualdev/net" target="_blank"
-                >GitHub</a
-            >
-        </p>
-    </div>
 </footer>
 
 <style>
     footer {
         max-width: 1000px;
         margin: 0 auto;
-        padding: 0px 10px;
+        padding: 0px 50px;
 
         border-top: 2px dotted white;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        /* flex-direction: column; */
+        justify-content: space-between;
     }
     footer a {
         /* text-decoration: none; */
@@ -52,8 +52,10 @@
         align-self: stretch;
         justify-content: flex-end;
     }
+    footer .license {
+        justify-content: flex-start;
+    }
     ul {
-        /* margin: 0px; */
         list-style: none;
         text-align: right;
     }
