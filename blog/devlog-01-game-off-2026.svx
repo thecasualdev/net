@@ -1,0 +1,30 @@
+---
+title: "DEVLOG 01 - Game Off 2026"
+date: "2026-11-13T15:46:32+11:00"
+description: "Welcome to the first DEVLOG of many, following me build a game for GitHubs 2026 Game Off!"
+tags: [game-jam bevy github rust]
+---
+# DEVLOG #01 - Game Off 2026
+
+My initial goal this month was to partake in the Epic Megajam 2026, despite them throwing AI in all the marketing and being sponsored by mostly just AI companies. 
+AI was optional and I'll be honest that prize money, very tempting. But I ran into two problems, one the last time I used Unreal Engine it was known as UE4 & two apparently nobody at 
+Epic Games owns a Linux device. As part of the requirements was to upload either a Mac or Windows build (You could also do Android but I'm not trying to figure out Mobile controls), now
+yes I could have whipped up an emulator for the build but my 5 year old gaming laptop is way too underpowered to make that worth it.
+
+Fortunately itch.io is home to millions of other Game Jams, which is why I will be doing the 2026 Game Off.
+
+These dev logs will not be a summary but 99% of the time written live, which is why as of the time of writing this first post. I honestly have no idea what game I'm building. But I know that
+I want to try out the bevy engine. So I'm gonna get that set up and then probably not actually start till tomorrow. 
+
+## Setting up bevy
+
+Obviously the first step for setting up bevy is making a rust project. I'll be using workspaces out of habbit but it probably wont matter much unless I make a multiplayer game.
+Then I can have the server & client code sit separately.
+
+*update.. I forgot how long Rust takes to build :P*
+
+Alright, I've got the basics down. Now toying with plugins.
+
+## What in the license
+
+Decided to give setting up a proper license a go, fuck me is tedious. Making an open source game is just that little bit harder then a close source one. Figured it out now though... I hope.
