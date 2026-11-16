@@ -1,0 +1,13 @@
+---
+title: "DEVLOG 01 - Whooops"
+date: "2026-11-16T12:44:19+11:00"
+description: "Frankly, I did not see this coming."
+tags: [game-jam bevy devlog]
+---
+# DEVLOG 02 - Game off 2026
+
+Change of plans. For some reason I thought making an apple pie from scratch would be easy. And I was wrong.\
+Bevy is an Engine by name only, and in practice works more like a framework. Now this is fine, though one problem.
+I have never build a game with a framework before, I've only ever built with editors. So while I do wish to use Bevy in the future.
+And probably make the game concept I thought of for this game Jam with it. I'm gonna need to reel in the scope a little and maybe make a smaller game in Godot.
+
